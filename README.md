@@ -14,7 +14,7 @@ This is a simple React application that simulates controlling a robot on a 5x5 g
 1. **Clone the repository:**
 
     ```bash
-    git clone https://github.com/MehtaPulkit/robot-controller.git
+    git clone https://github.com/your-username/robot-controller.git
     cd robot-controller
     ```
 
@@ -32,6 +32,22 @@ This is a simple React application that simulates controlling a robot on a 5x5 g
 
     The application will be available at `http://localhost:3000`.
 
+## Usage
+
+- Use the "Rotate Left" button to rotate the robot 90 degrees counterclockwise.
+- Use the "Rotate Right" button to rotate the robot 90 degrees clockwise.
+- Use the "Move Forward" button to move the robot one step forward in the direction it is currently facing.
+
+## Project Structure
+
+- `src/App.js`: Main component that handles state and robot controls.
+- `src/Grid.js`: Component that renders the 5x5 grid.
+- `src/Robot.js`: Component that renders the robot.
+- `src/index.css`: Custom CSS, including TailwindCSS directives.
+
+## Styling
+
+The application uses TailwindCSS for styling. The main styles are defined in `src/index.css` using Tailwind directives.
 
 ## License
 
